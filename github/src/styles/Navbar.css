@@ -1,0 +1,39 @@
+.Navbar {
+  border: 1px solid white;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.Navbar-left {
+  border: 1px solid white;
+  height: 60px;
+  width: 250px;
+  margin-top: 15px;
+  display: flex;
+
+  gap: 10px;
+  padding: auto;
+  /* margin: auto; */
+}
+.Navbar-left div {
+  margin: auto;
+}
+
+.Navbar-right {
+  border: 1px solid wheat;
+  display: flex;
+  height: 60px;
+  width: 600px;
+  margin-top: 15px;
+}
+.Navbar-right div {
+  /* margin: auto; */
+  border: 1px solid white;
+}
+
+.Search-bar {
+  border: 1px solid white;
+  width: 60%;
+  margin: 8px;
+  height: 40px;
+}
